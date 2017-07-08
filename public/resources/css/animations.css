@@ -1,0 +1,29 @@
+
+.animation-1 {
+  position: relative;
+  animation-name: fadein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+}
+.animation-2 {
+  color: #fff;
+  position: relative;
+  animation-name: fadein;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+.animation-3 {
+  color: #fff;
+  position: relative;
+  animation-name: fadein;
+  animation-duration: 1.1s;
+  animation-delay: 2s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes fadein {
+  0%   {color: #fff; left:300px;}
+  100% {color: #000; left: 0px;}
+}

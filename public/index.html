@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <title>Music Label Agency</title>
+    <meta name="description" content="Music Label Agency">
+
+    <script src="lib/js/jquery-3.2.1.min.js"></script>
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="js/scroll.js"></script>
+    <script src="js/googlea.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bellefair%7CMonoton" rel="stylesheet">
+    <link href="resources/css/styles.css" rel="stylesheet">
+    <link href="resources/css/fixed.elements.css" rel="stylesheet">
+    <link href="resources/css/animations.css" rel="stylesheet">
+  </head>
+  <body>
+
+<div class="row no-gutter" style="max-width: 1500px;">
+  <div class="col-xs-8 col-lg-3 col-md-5">
+      <img class="pull-right svg-logo" src="resources/img/logo.svg" alt="Music Label Agency">
+  </div>
+  <div class="col-xs-12 col-lg-4 col-md-5">
+    <div class="logo-font">
+      <span class="animation-1">Music</span><br><span class="animation-2">Label</span><br><span class="animation-3">Agency</span>
+    </div>
+    <span id="anchor"></span>
+    <div class="links" id="links">
+        <a href="#about" onclick="scrollToElement('#about', -20);">about</a> <span>|</span>
+        <a href="#merch" onclick="scrollToElement('#merch', -100);">merch</a> <span>|</span>
+        <a href="#artists" onclick="scrollToElement('#artists', -100);">artists</a> <span>|</span>
+        <a href="#media" onclick="scrollToElement('#media', -100);">media</a>
+    </div>
+    <div class="about ingress-padding" id="about">
+      <p>Music Label Agency is an independent record label that publishes music performed by music performers. At Music Label Agency, we endavour to publish only music performed by music performers.</p>
+      <p>Music performers such as the "Music Performers" and "T and the Dawgs" are currently signed to the Music Label Agency label.</p>
+      <p>Look and listen for music published by the Music Label Agency record label at locations where music is performed or published.</p>
+    </div>
+  </div>
+  <div class="col-xs-12 col-lg-4 col-lg-offset-1 artist-border">
+    <div class="artists">
+      <div class="row track">
+        <div class="player"><audio controls><source src="music/duck_jazz.mp3" type="audio/mpeg"></audio></div>
+        <span class="artist-info">T and the Dawgs</span><br>
+        <span class="track-info">Musical sounds and duck jazz</span>
+      </div>
+      <div class="row track">
+        <div class="player"><audio controls><source src="music/circle_of_space_goats.mp3" type="audio/mpeg"></audio></div>
+        <span class="artist-info">T and the Dawgs</span><br>
+        <span class="track-info">Circle of the space goats</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row no-gutter content-block" style="overflow:hidden;">
+  <div class="col-xs-8 col-sm-offset-4 spacer" id="merch"><span class="content-header">merch</span></div>
+  <div class="col-xs-9 col-md-offset-3" style="position: relative;">
+    <a href="mailto:contact@musiclabel.agency"><img src="resources/img/merch.png" alt="merch"></a>
+  </div>
+</div>
+
+<div class="row no-gutter content-block" style="overflow:hidden;">
+  <div class="col-xs-8 col-sm-offset-4 spacer"  id="artists"><span class="content-header">artists</span></div>
+  <div class="col-xs-9 col-md-offset-3 spacer" style="position: relative;">
+    <img src="resources/img/artists3.png" alt="artists">
+  </div>
+  <div class="col-xs-8 col-md-offset-4 spacer" style="position: relative;">
+    <img src="resources/img/artists2.png" alt="artists">
+  </div>
+  <div class="col-xs-10 col-md-offset-2 spacer" style="position: relative;">
+    <img src="resources/img/artists.png" alt="artists">
+  </div>
+</div>
+
+<div class="row no-gutter content-block" style="overflow:hidden;">
+  <div class="col-xs-8 col-sm-offset-4 spacer" id="media"><span class="content-header">media</span></div>
+  <div class="col-xs-6 col-md-offset-3" style="position: relative;"><iframe width="700" height="550" src="https://www.youtube.com/embed/kOWYVxXdQhg" style="border:0;" allowfullscreen></iframe></div>
+</div>
+
+<div class="content-block">
+  <span></span>
+</div>
+
+<footer>
+  <div class="about">
+    <a href="https://twitter.com/MusicAgencyMLA" target="_blank"><img src="resources/img/twitter.png" alt="twitter"></a>
+    <a href="https://www.facebook.com/MusicLabelAgency/" target="_blank"><img src="resources/img/facebook.png" alt="facebook"></a>
+    <a href="https://www.youtube.com/channel/UCBhv-BuQ857vLcsNiM1qrog" target="_blank"><img src="resources/img/youtube.png" alt="youtube"></a>
+    <a href="mailto:contact@musiclabel.agency"><img src="resources/img/email.png" alt="email"></a>
+  </div>
+</footer>
+  </body>
+</html>
